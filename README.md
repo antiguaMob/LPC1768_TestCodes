@@ -10,3 +10,5 @@ Makefile:
 The Makefile is a file which defines a set of tasks to be done by considering the files present in a certain folder mentioned in it. It is used to compile and execute a code.
 The 'make' utility requires a file, 'Makefile' (or makefile), which defines set of tasks to be executed. You may use 'make' command to compile a program from source code. Most open source projects use make to compile a final executable binary, which can then be installed using the command 'make install'. 'make install' may require sudo permission to execute.
 
+The Makefile is included in the '_basic ' folder.
+
