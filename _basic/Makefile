@@ -3,7 +3,7 @@
 ######################################################################################
 # GNU GCC ARM Embeded Toolchain base directories and binaries 
 ######################################################################################
-GCC_BASE = /opt/setup/gcc-arm-none-eabi-5_4-2016q2/
+GCC_BASE = /opt/setup/gcc-arm-none-eabi-5_4-2016q2/   #Location of your Toolchain#
 GCC_BIN  = $(GCC_BASE)bin/
 GCC_LIB  = $(GCC_BASE)arm-none-eabi/lib/
 GCC_INC  = $(GCC_BASE)arm-none-eabi/include/
@@ -54,15 +54,15 @@ CORTEX_R5_HWFP_LIB_PATH = $(GCC_LIB)armv7-r/thumb/fpu
 #    DEBUG_LEVEL  = < -g compiler option or nothing >
 #    OPTIM_LEVEL  = < -O compiler option or nothing >
 ######################################################################################
-PROJECT           = basic
+PROJECT           = basic				#Enter your Projrect name#
 MCU_CC_FLAGS      = $(CORTEX_M3_CC_FLAGS)
 MCU_LIB_PATH      = $(CORTEX_M3_LIB_PATH)
 OPTIMIZE_FOR      = 
 DEBUG_LEVEL       = 
 OPTIM_LEVEL       = 
 LINKER_SCRIPT     = ./LPC1768.ld
-PROJECT_OBJECTS   = main.o startup_LPC17xx.o system_LPC17xx.o
-PROJECT_OBJECTS   += 
+PROJECT_OBJECTS   = main.o startup_LPC17xx.o system_LPC17xx.o 	#Contains main.c file. If any Additional file add it on line 65#
+PROJECT_OBJECTS   += 						#Add additional files to be compiled here leaving a space after each file#
 PROJECT_INC_PATHS = -I.
 PROJECT_LIB_PATHS = -L.
 PROJECT_LIBRARIES =
