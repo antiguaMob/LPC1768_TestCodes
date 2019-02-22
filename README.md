@@ -7,7 +7,7 @@ NOTE:
 Before running and burning each code do not forget to include all the files of '_basic' in the folder where you are going to run the Makefile to burn it.
 
 Makefile:
-The Makefile is a file which defines a set of tasks to be done by considering the files present in a certain folder mentioned in it. It is used to compile and execute a code.
+A makefile is a file containing a set of directives used by a 'make' build automation tool to generate a target.
 The 'make' utility requires a file, 'Makefile' (or makefile), which defines set of tasks to be executed. You may use 'make' command to compile a program from source code. Most open source projects use make to compile a final executable binary, which can then be installed using the command 'make install'. 'make install' may require sudo permission to execute.
 
 The Makefile is included in the '_basic ' folder.
