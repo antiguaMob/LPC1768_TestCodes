@@ -1,4 +1,4 @@
-# lpc-1768
+# LPC1768
 
 LPC1768 is a SoC which has an ARM Cortex M3 microprocessor in it. 
 
