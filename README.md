@@ -1,6 +1,6 @@
 # LPC1768
 
-LPC1768 is a SoC which has an ARM Cortex M3 microprocessor in it. 
+LPC1768 is a SoC which works on ARM Cortex M3 microprocessor.
 
 NOTE:
 '_basic' is a folder which has the libraries of LPC1768 and all these files have to be present in the same folder as of the other code while burning it onto the chip.
